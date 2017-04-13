@@ -17,7 +17,7 @@ class Employee(object):
     '''
     Rules:
     1.__init__ is not mandatory to have in class. If not present default constructor will be provided by runtime. 
-    2. Class can be created like Employee(). If presented, then arguments should match with the __init__. e.g., Employee('Nagaraju', 'IBM') 
+    2. Object can be created like Employee(). If presented, then arguments should match with the __init__. e.g., Employee('Nagaraju', 'IBM') 
         and Employee() can't be called any more. 
     3. There can be only one __init_ method in any given class. Either with default__init__(self)  or argument __init__(self, name).
     '''
