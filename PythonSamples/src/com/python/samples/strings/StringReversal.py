@@ -16,7 +16,7 @@ class MyClass(object):
         Constructor
         '''
         
-        
+    #Recursive approach    
     def reverse(self, s):
         if (s== NULL or len(s) == 1): return s
         return self.reverse(s[1:])+s[0];
