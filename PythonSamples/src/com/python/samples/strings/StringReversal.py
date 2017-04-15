@@ -23,4 +23,4 @@ class MyClass(object):
     
 mc = MyClass();
 print(mc.reverse('Hello'))
-print(mc.reverse('Nagaraju'))
+print(mc.reverse('Phanithi'))
