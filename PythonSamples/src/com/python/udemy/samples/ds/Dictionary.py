@@ -25,7 +25,7 @@ class Dictionary(object):
         
         d = {}
         d['simple_key'] = 'hello'
-        print(d['simple_key'])
+        print(d['simple_key']) #If no key present in dictionary then KeyError will be thrown.
         
         d = dict()
         d['simple_key'] = 'hello'
