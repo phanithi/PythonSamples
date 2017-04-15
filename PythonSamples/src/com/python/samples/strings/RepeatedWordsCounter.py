@@ -20,16 +20,16 @@ def countRepeatedWords(s, word):
     for wrd in s.split(' '):
         if d.__contains__(wrd):
             count = d[wrd]+1 
-        
         d[wrd] = count
             
     # Printing dictionary..
     for key in d.keys():
         print('Key - '+str(key) + ': Count - '+str(d[key]))   
     
-    count = 0 
     if d.__contains__(word): 
         count = d[word]
+    else:
+        count = 0
         
     return count
 
