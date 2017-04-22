@@ -10,7 +10,7 @@ class MyClass(object):
     classdocs
     '''
 
-	
+    # Default constructor.
     def __init__(self):
         '''
         Constructor

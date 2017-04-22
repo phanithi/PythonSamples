@@ -4,7 +4,7 @@ Created on Apr 13, 2017
 @author: Phanithi
 '''
 
-# Find 1st repeated character
+# Find 1st repeated character. duplicate comment
 def findRepeatedChar(s):
     print('Inside function : findRepeatedChar()')
     if(len(s) == 1) : return s
