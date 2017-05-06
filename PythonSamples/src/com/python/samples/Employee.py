@@ -25,7 +25,7 @@ class Employee(object):
         empName = empName
         
         # This will not set org value to the organization declared at class level. Instead it will be set to local variable of __init__.
-        organization = org;
+        #organization = org; # This is not required
         
         #To set class variable use class name
         Employee.organization = org
@@ -48,9 +48,10 @@ d= Employee("Nagaraju", "Sears")
 
 print(Employee.organization)
 print(Employee.name);
+print('test merge conflicts')
 
 d.setEmpId("08285G")
 print(d.empId)
 print(d.getEmpId())
 print(Employee.organization)
-
+print('Added by phanithi')
