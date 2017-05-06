@@ -25,7 +25,7 @@ class Employee(object):
         empName = empName
         
         # This will not set org value to the organization declared at class level. Instead it will be set to local variable of __init__.
-        organization = org;
+        #organization = org; # This is not required
         
         #To set class variable use class name
         Employee.organization = org
